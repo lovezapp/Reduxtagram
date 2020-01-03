@@ -18,7 +18,6 @@ export function addComment(postId, author, comment) {
 
 // remove comment
 export function removeComment(postId, i) {
-  console.log("actionCreator dispatch remove comment");
   return {
     type: "REMOVE_COMMENT",
     postId,
